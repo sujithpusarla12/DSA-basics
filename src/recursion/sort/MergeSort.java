@@ -1,9 +1,9 @@
-package sort;
+package recursion.sort;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-
+//divide and conquer algo - O(nlog(n)) time, O(n) space
 public class MergeSort {
     public static void main(String[] args){
         System.out.println("give array input");
